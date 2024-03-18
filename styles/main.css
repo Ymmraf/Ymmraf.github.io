@@ -37,7 +37,7 @@ main {
 }
 
 .main-grid {
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -136,7 +136,7 @@ a:hover {
 .exp-grid {
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 150px 100%;
+    grid-template-columns: 150px auto;
 }
 
 .year {
