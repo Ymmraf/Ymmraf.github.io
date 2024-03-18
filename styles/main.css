@@ -1,3 +1,8 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: rgb(25, 13, 67);
 }
@@ -38,10 +43,10 @@ main {
 
 .main-grid {
     width: 80%;
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
+    margin: auto;
 }
 
 .my-name {
