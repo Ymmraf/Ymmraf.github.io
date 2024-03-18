@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(25, 13, 67);
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+html {
+    font-family: 'Kanit';
+}
+
+main {
+    padding-top: 80px;
+}
+
+.about {
+    display: none;
+    font-size: 18px;
+    margin-top: 0px;
+    color: white;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.experience {
+    display: none;
+}
+
+.white {
+    color: white;
+}
+
+.main-grid {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.my-name {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.motto {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(196, 196, 196);
+}
+
+.skill-heading {
+    margin-top: 0;
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+}
+
+.language {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    margin-top: 50px;
+    list-style: none;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    transition: 0.3s;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.a-selected {
+    color: white;
+    text-decoration: underline;
+}
+
+.skill {
+    margin-top: 50px;
+}
+
+.skill-grid {
+    margin-top: 30px;
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 120px 100%;
+}
+
+.project-a div {
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(200, 200, 200, 0.1)
+}
+
+.project-a div:hover {
+    background-color: rgba(200, 200, 200, 0.3)
+}
+
+.project-name {
+    color: white;
+    font-size: 20px;
+}
+
+.project-description {
+    font-weight: 300;
+    color: rgb(230, 230, 230);
+}
+
+.project-tech {
+    color: rgb(135, 135, 135);
+}
+
+.exp-grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 150px 100%;
+}
+
+.year {
+    font-size: 18px;
+    color: rgb(230, 230, 230);
+    font-weight: 300;
+}
+
+.position {
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.job-des {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(200, 200, 200);
+    margin: 0px;
+    padding: 0px;
+}
+
+.job-des-list {
+    list-style: outside;
+    margin-top: 0px;
+}
+
+@media (max-width: 1048px) {
+    .exp-grid {
+        grid-template-columns: 1fr
+    }
+
+    .main-grid {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-grid {
+        width: 85%;
+        grid-template-columns: 1fr;
+    }
+}

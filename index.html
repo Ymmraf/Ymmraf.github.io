@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Pheranat Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <div class="main-grid">
+            <div class="menu-flex">
+                <div>
+                    <h1 class="my-name white">Pheranat Lorwongkamol</h1>
+                    <p class="motto">I enjoy building things.</p>
+                    <ul>
+                        <li><a class="a-selected" id="projectsButton" href="javascript:void(0)" onclick="displaySection('projects') ">PROJECTS</a></li>
+                        <li><a class="a-unselected" id="experienceButton" href="javascript:void(0)" onclick="displaySection('experience')">EXPERIENCE</a></li>
+                        <li><a class="a-unselected" id="aboutButton" href="javascript:void(0)" onclick="displaySection('about')" >ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projects" id="projects">
+                <a href="https://ymmrafjammming.netlify.app/" class="project-a">
+                    <div>
+                        <p class="project-name">Spotify Playlist Creator</p>
+                        <p class="project-description">Web application to search for tracks on Spotify and allow users
+                            to create their playlists. This project was created as a practice project for the
+                            Codeacademy Frontend Engineer Course.</p>
+                        <p class="project-tech">• React •</p>
+                    </div>
+                </a>
+                <hr style="margin-top: 20px; margin-bottom: 20px; opacity: 0.3;">
+                <a href="https://stock-2mm-8f6f2a66e223.herokuapp.com/" class="project-a">
+                    <div>
+                        <p class="project-name">2mm Stock Management</p>
+                        <p class="project-description">This web application is used to display, manage, and track
+                            product stock for my family business. The app allows employees in related departments to
+                            update stock from their smartphones.</p>
+                        <p class="project-tech">• Handlebars • Express.js • MongoDB •</p>
+                    </div>
+                </a>
+                <hr style="margin-top: 20px; margin-bottom: 20px; opacity: 0.3;">
+                <a href="https://khclglass.com/" class="project-a">
+                    <div>
+                        <p class="project-name">KHCL Glass Page</p>
+                        <p class="project-description">My first static website was created to be the webpage for my
+                            family business. It was built using vanilla HTML, CSS, and JavaScript.</p>
+                        <p class="project-tech">• HTML • CSS • Javascript •</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="experience" id="experience">
+                <div class="exp-grid">
+                    <div>
+                        <p class="year">2022-2024</p>
+                    </div>
+                    <div>
+                        <p class="position">General Manager - KHCL Glass Co., Part.</p>
+                        <ul class="job-des-list">
+                            <li class="job-des">Overseeing daily business operation.</li>
+                            <li class="job-des">Build and maintain relationships with clients in wholesale department.
+                            </li>
+                            <li class="job-des">Collaborate with employees to provide the necessary tools, resources,
+                                and support to make employees work more efficiently.</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="opacity: 0.3;">
+                <div class="exp-grid">
+                    <div>
+                        <p class="year">2021-2023</p>
+                    </div>
+                    <div>
+                        <p class="position">Database - Teleinfomedia PLC (Contracted - Outsource)</p>
+                        <ul class="job-des-list">
+                            <li class="job-des">Examine and update data accuracy in the company's database.</li>
+                            <li class="job-des">Perform User Acceptance Testing (UAT) on the company's developing
+                                product.</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="opacity: 0.3;">
+                <div class="exp-grid">
+                    <div>
+                        <p class="year">Oct - Dec 2020</p>
+                    </div>
+                    <div>
+                        <p class="position">Personal Assistant - HELLO! CEO Branding (Contracted)</p>
+                        <ul class="job-des-list">
+                            <li class="job-des">Communicate closely with client to ensure that they perceive correct
+                                information about the upcoming class.</li>
+                            <li class="job-des">Prepare a communication message for clients during class.</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="opacity: 0.3;">
+                <div class="exp-grid">
+                    <div>
+                        <p class="year">Jun - Aug 2020</p>
+                    </div>
+                    <div>
+                        <p class="position">Office Administrator - Teleinfomedia PLC (Internship)</p>
+                        <ul class="job-des-list"> 
+                            <li class="job-des">Collaborate with the team to perform daily tasks.</li>
+                            <li class="job-des">Communicate with outsourced development team to develop company's web application.</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr style="opacity: 0.3;">
+                <div class="exp-grid">
+                    <div>
+                        <p class="year">2019 - 2020</p>
+                    </div>
+                    <div>
+                        <p class="position">Lighting Designer - Lakorn Nitade Chula</p>
+                        <ul class="job-des-list">
+                            <li class="job-des">Design the overall lighting scheme for each scene on stage, </li>
+                            <li class="job-des">Lead and directly coordinate with the lighting crews to execute the
+                                vision.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about" id="about">
+                <p>I developed my first static website for my family business. Since then, my interest in programming and web development has grown steadily. </p>
+                <p>This growing interest motivated me to seriously study the principles, and now I'm focusing on applying my knowledge in a professional setting. I'm particularly interested in building dynamic and creative products to solve everyday problems.</p>
+                <p>In my free time, I build little Arduino projects. When I'm not at the computer, I enjoy planting trees, petting my cat, playing badminton, and playing games with my friends.</p>
+                <div class="skill">
+                    <h2>Skills</h2>
+                    <div class="skill-grid">
+                        <div>
+                            <p class="skill-heading">Languages</p>
+                        </div>
+                        <div>
+                            <p class="language">HTML & CSS</p>
+                            <p class="language">Javascript</p>
+                            <p class="language">SQL</p>
+                        </div>
+                    </div>
+                    <div class="skill-grid">
+                        <div>
+                            <p class="skill-heading">Technologies</p>
+                        </div>
+                        <div>
+                            <p class="language">React-Redux</p>
+                            <p class="language">MongoDB</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </main>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
