@@ -113,6 +113,10 @@ a:hover {
     grid-template-columns: 120px 100%;
 }
 
+.project {
+    margin-bottom: 20px;
+}
+
 .project-a div {
     transition: 0.3s;
     border-radius: 20px;
