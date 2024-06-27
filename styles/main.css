@@ -103,6 +103,10 @@ a:hover {
 }
 
 .skill {
+    display: none;
+}
+
+.skill-list {
     margin-top: 50px;
 }
 
@@ -111,6 +115,7 @@ a:hover {
     display: grid;
     column-gap: 20px;
     grid-template-columns: 120px 100%;
+    color:white;
 }
 
 .projects {
@@ -172,6 +177,20 @@ a:hover {
 .job-des-list {
     list-style: outside;
     margin-top: 0px;
+}
+
+.certificate-name {
+    margin-bottom: 8px;
+}
+
+.certificate-list {
+    margin: 0px;
+    padding-left: 12px;
+}
+
+.certificate-list li {
+    padding: 8px;
+    color: rgb(196, 196, 196);
 }
 
 @media (max-width: 1048px) {

@@ -12,10 +12,12 @@ function setAllDisplayToNone() {
     document.getElementById('about').style.display = 'none'
     document.getElementById('experience').style.display = 'none'
     document.getElementById('projects').style.display = 'none'
+    document.getElementById('skill').style.display = 'none'
 }
 
 function clearStyleFromButton() {
     document.getElementById('aboutButton').className = ''
     document.getElementById('experienceButton').className = ''
     document.getElementById('projectsButton').className = ''
+    document.getElementById('skillButton').className = ''
 }
